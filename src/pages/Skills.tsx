@@ -2,8 +2,12 @@ import { motion } from 'framer-motion';
 import {
   IconCodeCircle,
   IconBrandReact,
-  IconBrandNextjs,
-  IconBrandVue,
+  IconBrandHtml5,
+  IconBrandBootstrap,
+  IconBrandJavascript,
+  IconBrandCakephp,
+  IconBrandCss3,
+  IconBrandWordpress,
   IconBrandNuxt,
   IconBrandSvelte,
   IconBrandTailwind,
@@ -17,12 +21,12 @@ export const Skills = () => {
   const sectionDescription = 'List of my skills';
   // mockup skills data
   const skills = [
-    { label: 'React Js', icon: <IconBrandReact /> },
-    { label: 'Next Js', icon: <IconBrandNextjs /> },
-    { label: 'Vue Js', icon: <IconBrandVue /> },
-    { label: 'Nuxt Js', icon: <IconBrandNuxt /> },
-    { label: 'Svelte Js', icon: <IconBrandSvelte /> },
-    { label: 'Tailwind CSS', icon: <IconBrandTailwind /> },
+    { label: 'WORDPRES', icon: <IconBrandWordpress/> },
+    { label: 'PHP', icon: <IconBrandCakephp/> },
+    { label: 'HTML', icon: <IconBrandHtml5 /> },
+    { label: 'CSS', icon: <IconBrandCss3 /> },
+    { label: 'BOOTSTRAP', icon: <IconBrandBootstrap /> },
+    { label: 'JAVA SCRIPT', icon: <IconBrandJavascript/> },
   ];
   return (
     <motion.section

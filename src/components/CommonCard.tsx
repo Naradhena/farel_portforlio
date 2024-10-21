@@ -2,7 +2,6 @@ import { motion } from 'framer-motion';
 interface CommonCardProps {
   id: number;
   image: string;
-  name: string;
   position: string;
   startDate: string;
   endDate: string;
@@ -11,7 +10,7 @@ interface CommonCardProps {
 }
 
 export const CommonCard = (props: CommonCardProps) => {
-  const { image, name, position, startDate, endDate, duration, location } =
+  const { image, position, startDate, endDate, duration, location } =
     props;
   return (
     <motion.div
@@ -29,12 +28,12 @@ export const CommonCard = (props: CommonCardProps) => {
       className="flex items-center space-x-10 w-full md:w-max py-4 px-8 rounded-xl bg-gray-900"
     >
       <div className="w-20 h-20">
-        <img src={image} alt={name} width="100%" height="100%" />
+        <img src={image} alt={position} width="100%" height="100%" />
       </div>
       <div className="flex flex-col text-gray-400 text-sm">
         <h2 className="text-lg font-bold text-white">{position}</h2>
         <span>
-          {name} • {location}
+          {position} • {location}
         </span>
         <span className="mt-2">
           {startDate} - {endDate}

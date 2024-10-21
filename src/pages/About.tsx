@@ -19,31 +19,16 @@ export const About = () => {
         description={sectionDescription}
       />
       <div className="flex gap-2 text-md lg:text-xl font-medium">
-        <h2 className="font-semibold">Hello, i'm Bayu</h2>
+        <h2 className="font-semibold">Hello, i'm Farel</h2>
         <div className="ml-1 animate-waving-hand">👋</div>
       </div>
       <p>
-        I am Software Engineer proficient in TypeScript and well-versed in
-        popular frameworks such as React JS, Next JS, Vue JS, and Nuxt Js. Not
-        just coding. I am passionate about creating clean and efficient code,
-        automating testing code, and implementing modern design principles to
-        deliver intuitive user experiences. With my technical expertise, I am
-        able to create highly performant and elegant solutions that are easy to
-        maintain and scale. I am always eager to learn new technologies and
-        improve my skills
+      Hi, I'm Farel! I'm a student at SMKN 1 Banjar with a strong passion for information technology. Currently, I'm an active member of the student council (OSIS) in the IT department, where I help manage various tech-related activities at school.
+
+I have a growing interest in programming and web development, and I’m always looking to expand my knowledge in coding and web design. I enjoy working collaboratively and love taking on new challenges in the tech world.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sequi
-        officiis quas, facilis molestiae adipisci reprehenderit itaque alias
-        atque tempora odit perferendis, nulla voluptatem quo voluptatum enim
-        expedita, numquam nemo! Vel necessitatibus provident fugiat asperiores
-        velit? Illum amet cum dignissimos? Quo perferendis vitae eos dolores
-        sunt delectus voluptate ab omnis asperiores dicta, dolor reprehenderit
-        blanditiis et a quod esse. Aut omnis rerum distinctio ducimus animi
-        delectus eum architecto voluptatem, tenetur labore eveniet aliquid
-        voluptas facere culpa autem saepe veniam enim et modi minus quod beatae
-        voluptatibus libero blanditiis. Harum ratione quod sunt vero quisquam
-        iste accusantium numquam distinctio. Recusandae, aut!
+      Outside of technology, I like spending my free time playing games and keeping up with the latest digital trends. I believe technology can be a powerful tool to solve problems and bring positive change to society.
       </p>
     </motion.section>
   );

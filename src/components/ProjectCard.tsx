@@ -1,14 +1,16 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+
 interface ProjectCardProps {
   id: number;
   image: string;
   name: string;
   link: string;
+  description: string;
 }
 
 export const ProjectCard = (props: ProjectCardProps) => {
-  const { image, name, link } = props;
+  const { image, name, link, description } = props;
   return (
     <Link to={link} target="_blank">
       <motion.div
@@ -29,8 +31,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
         <div className="flex flex-col justify-start p-4 text-gray-400 text-sm">
           <h2 className="text-lg font-bold text-white">{name}</h2>
           <p className="text-gray-400 text-sm">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            tempore eius provident? Inventore, quas repudiandae.
+            {description}
           </p>
         </div>
       </motion.div>
