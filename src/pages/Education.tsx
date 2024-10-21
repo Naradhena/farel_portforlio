@@ -11,7 +11,7 @@ export const Education = () => {
   const educations = [
     {
       id: 1,
-      image: '/vite.svg',
+      image: 'sd.png',
       position: 'SDN 1 Panulisan',
       startDate: '2013',
       endDate: '2019',
@@ -20,7 +20,7 @@ export const Education = () => {
     },
     {
       id: 1,
-      image: '/vite.svg',
+      image: 'smp.jpg',
       position: 'SMPN 2 Dayeuhluhur',
       startDate: '2019',
       endDate: '2022',
@@ -29,7 +29,7 @@ export const Education = () => {
     },
     {
       id: 3,
-      image: '/vite.svg',
+      image: 'smk.jpg',
       position: 'SMKN 1 Banjar',
       startDate: '2022',
       endDate: '2025',

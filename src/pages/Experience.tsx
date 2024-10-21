@@ -11,7 +11,7 @@ export const Experience = () => {
   const experiences = [
     {
       id: 1,
-      image: '/vite.svg',
+      image: 'Aset.png',
       name: 'PT Aset Karya Nasional',
       position: 'PT Aset Karya Nasional',
       startDate: '1 Juli 2024',
